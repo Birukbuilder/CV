@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <a href="index.html">Home</a>
+    <br /><br />
+    <h4>
+      email: Birukwegayehu1@gmail.com
+      <br />
+      phone: 0915582926
+      <br />
+      social: @birukwh
+    </h4>
+
+    <hr />
+
+    <form
+      action="mailto:birukwh@gmail.com"
+      method="post"
+      encoding="plaintext"
+    >
+    <!-- the action attribute of the form will determine what type of action will happen when submit button is hitted in this case the data will be sent to the desired email address using using mailto: command. -->
+    <!-- the method=post makes sure the collected data will be sent-->
+    <!-- the encoding attribute makes sure that the encoding if the message is the specified one bin this case plane text, this helps to resolve encoding problem resulting percentage symbol and all-->
+    <label for="photo">photo</label>
+    <input type="file" />
+    <br />
+    <br />
+    <label for="username">user name</label>
+    <input type="text" />
+    <br />
+    <br />
+    <label for="email">your email</label>
+    <input type="email" />
+    <br />
+    <br />
+    <label for="password">Password</label>
+    <input type="password" />
+    <br />
+    <br />
+    <label for="message">Message(optional)</label>
+    <textarea name="" id="" cols="60" rows="1"></textarea>
+    <br />
+    <br />
+    Do you wanna sign up to the email list
+    <input type="checkbox" />
+    <input type="submit" />
+  </body>
+</html>
